@@ -23,11 +23,10 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
  
 # Copy the built jar file from the build container to the runtime container
-COPY --from=build /app/target/demo-0.0.1-SNAPSHOT.jar /app/demo-0.0.1-SNAPSHOT.jar
+COPY --from=build /app/target/introkubernetes-0.0.1-SNAPSHOT.jar /app/introkubernetes-0.0.1-SNAPSHOT.jar
  
 # Expose the application port (5000)
 EXPOSE 8080
  
 # Command to run the application
-CMD ["java", "-jar", "/app/demo-0.0.1-SNAPSHOT.jar"]
- 
+CMD ["java", "-jar", "/app/introkubernetes-0.0.1-SNAPSHOT.jar"]
