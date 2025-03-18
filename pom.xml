@@ -9,9 +9,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
+<<<<<<< HEAD
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
+=======
+	<artifactId>introkubernetes</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>introkubernetes</name>
+>>>>>>> 2a2a78f (Initial commit)
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
